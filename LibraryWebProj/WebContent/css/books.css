@@ -1,0 +1,186 @@
+/*----------------- content search board ---------------------*/
+.content {
+	width: 900px;
+	height: 200px;
+	background: pink;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+	position: relative;
+    padding: 50px 0px 80px 90px;
+    box-sizing: border-box;
+	
+} 
+
+
+/* .sb_wrapper{
+	margin:0;
+	padding:0;
+	
+	
+	position: absolute;
+	width:900px;
+	margin: 0 auto;
+	height: 200px;
+				
+}
+ */
+ 
+.content h1 {
+	font: 0.2em normal Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding:0px 20px 0px 205px;
+	width:300px;
+	height:21px;
+	margin-bottom:10px;
+	
+}
+
+.content div[type="sb_element"] {
+	/* display: block; 
+ */
+}
+
+.sb_wrapper input[type="search"],ul.sb_dropdown{
+	border:1px solid #fff;
+	background: #fafafa; 
+	font-size:15px;
+	font-family:1em normal Verdana, Arial, Helvetica, sans-serif;
+	outline:none;
+	padding:6px 5px 6px 20px;
+	text-shadow:1px 1px 1px #fff;
+	width: 680px;
+	float:left;
+	margin: 0 auto;
+}
+ul.sb_dropdown{
+	position: absolute;
+	z-index: 8;
+	text-align: left;
+	float:left;
+	list-style:none;
+	width:360px;
+	padding:6px 5px;
+	
+	-moz-border-radius:0px 0px 10px 10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+ul.sb_dropdown li{
+	font-size:15px;
+	line-height:32px;
+	height:32px;
+	float:left;
+	width:50%;
+	
+}
+ul.sb_dropdown li input[type="checkbox"]{
+	float:left;
+	margin:10px 4px 0 5px;
+	
+}
+ul.sb_dropdown li.sb_filter{
+	width:348px;
+	border:1px solid #f9f9f9;
+	clear:both;
+	background: #ffffff;
+	font: 1em normal Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	text-align:center;
+	letter-spacing:1px;
+	color:#808080;
+	height:16px;
+	line-height:16px;
+	padding:5px;
+	
+	-moz-box-shadow:0px 0px 2px #777;
+	-webkit-box-shadow:0px 0px 3px #555 inset;
+	-box-shadow:0px 0px 3px #555 inset;
+
+}
+
+/* search board */
+input.sb_search{
+	background:#f2f2f2 url(../icons/search.png) no-repeat center center;
+	height:31px;
+	width:35px;
+	border:none;
+	margin:0px 0px 0px -80px;
+	border:1px solid #fff;
+	-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	-box-shadow:1px 1px 3px #555;
+	outline:none;
+	cursor:pointer;
+}
+input.sb_search:hover{
+	background-color:#ff80c0;
+}
+
+
+/*------------------------books main board ---------------------------*/
+#main {
+	width:900px;
+	margin:0 auto;
+	
+}
+
+a {
+	color:black;
+}
+
+.content2 {
+	width:900px;
+	padding-top:30px;
+}
+
+#btnPrev,.btnNext {
+	display: inline-block;
+}
+
+.numbering {
+	list-style: none;
+}
+
+.here {
+	display: inline-block;
+}
+
+.strong {
+	color: pink;
+}
+
+.pager-clear {
+	width: 300px;
+	margin:0 auto;
+}
+
+.pager-clear a {
+	display:inline-block;
+}
+
+#cur-page {
+	text-align: right;
+}
+
+#pager-wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+.article-list {
+	border-top: 2px solid #808080;
+	width: 100%;
+}
+
+.article-list tr {
+	height : 30px;
+	line-height: 30px;
+}
+
+

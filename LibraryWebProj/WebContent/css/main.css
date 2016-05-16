@@ -1,0 +1,282 @@
+
+/*----------------- content search board ---------------------*/
+
+.content {
+	width: 900px;
+	height: 200px;
+	background: pink;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-align: center;
+	position: relative;
+    padding: 50px 0px 80px 90px;
+    box-sizing: border-box;
+	
+} 
+
+
+/* .sb_wrapper{
+	margin:0;
+	padding:0;
+	
+	
+	position: absolute;
+	width:900px;
+	margin: 0 auto;
+	height: 200px;
+				
+}
+ */
+ 
+.content h1 {
+	font: 0.2em normal Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding:0px 20px 0px 205px;
+	width:300px;
+	height:21px;
+	margin-bottom:10px;
+	
+}
+
+.content div[type="sb_element"] {
+	display: block;
+
+}
+
+.sb_wrapper input[type="search"],ul.sb_dropdown{
+	border:1px solid #fff;
+	background: #fafafa; 
+	/* background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#fafafa)); 
+	background: -moz-linear-gradient(top, #f2f2f2, #fafafa); */ 
+	font-size:15px;
+	font-family:1em normal Verdana, Arial, Helvetica, sans-serif;
+	/*
+	-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	-box-shadow:1px 1px 3px #555;
+	*/
+	outline:none;
+	padding:6px 5px 6px 20px;
+	text-shadow:1px 1px 1px #fff;
+	width: 680px;
+	/* float: inherit;
+	margin:3px 0px;*/
+	float:left;
+	margin: 0 auto;
+}
+ul.sb_dropdown{
+	position: absolute;
+	z-index: 8;
+	text-align: left;
+	float:left;
+	list-style:none;
+	width:360px;
+	padding:6px 5px;
+	
+	-moz-border-radius:0px 0px 10px 10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+ul.sb_dropdown li{
+	font-size:15px;
+	line-height:32px;
+	height:32px;
+	float:left;
+	width:50%;
+	
+}
+ul.sb_dropdown li input[type="checkbox"]{
+	float:left;
+	margin:10px 4px 0 5px;
+	
+}
+ul.sb_dropdown li.sb_filter{
+	width:348px;
+	border:1px solid #f9f9f9;
+	clear:both;
+	background: #ffffff;
+	font: 1em normal Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	text-align:center;
+	letter-spacing:1px;
+	color:#808080;
+	height:16px;
+	line-height:16px;
+	padding:5px;
+	
+	-moz-box-shadow:0px 0px 2px #777;
+	-webkit-box-shadow:0px 0px 3px #555 inset;
+	-box-shadow:0px 0px 3px #555 inset;
+
+}
+
+/* search board */
+input.sb_search{
+	background:#f2f2f2 url(../icons/search.png) no-repeat center center;
+	height:31px;
+	width:35px;
+	border:none;
+	margin:0px 0px 0px -80px;
+	border:1px solid #fff;
+	-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	-box-shadow:1px 1px 3px #555;
+	outline:none;
+	cursor:pointer;
+}
+input.sb_search:hover{
+	background-color:#ff80c0;
+}
+
+/* ----- bottom content2 board ----------- */
+.content2 {
+	width: 900px;
+	margin: 0 auto;
+	position: relative;  
+
+}
+
+.content2 div {
+	/* background: yellow; */
+	width: 430px;
+	height: 450px;
+	display: inline-block;
+	position: relative;
+	
+}
+
+.notice {
+	height: 420px;
+	padding-top: 5px;
+	padding-bottom:15px;
+
+}
+
+.notice table {
+	height: 200px;
+}
+
+.article-list {
+	background: #F2F2F2;
+	width: 432px;
+}
+
+.noticekind {
+	display:inline-block;
+	height: 220px;
+	width:430px;
+	color: black;
+}
+
+.content2 ul {
+	position:absolute;	
+	height: 440px;
+}
+
+/*=============책 이미지 ==================*/
+.book {
+	padding-left:5px;
+}
+
+.booklist {
+	display:inline-block;
+	width: 600px;
+	height:200px;
+	margin: 0 auto;
+	padding-left:5px;
+}
+
+.booklist  p {
+	padding-top: 5px;
+	padding-bottom:10px;
+	padding-left:40px;
+	width: 405px;
+	text-align:center;
+}
+
+.booklist a {
+	padding : 4px;
+}
+
+.booklist2  p {
+	padding-top: 30px;
+	padding-bottom:10px;
+	padding-left:40px;
+	width: 405px;
+	text-align:center;
+}
+
+.booklist2 a {
+	padding : 4px;
+}
+
+
+tr {
+	font-size: 12px;
+}
+
+.seq1 {
+	width:30px;
+}
+
+.title1 {
+	width:230px;
+}
+
+.writer1 {
+	width:100px;
+}
+
+.hit1 {
+	width:40px;
+}
+
+.seq2 {
+	width:30px;
+}
+
+.title2 {
+	width:350px;
+}
+
+
+.comment2 {
+	width:220px;
+}
+
+.writer2 {
+	width:40px;
+}
+
+
+.hidden a,.noticekind a {
+	color: black;	
+	text-decoration: underline;
+	font-weight : bold;
+}
+
+.booklist ,.booklist2{
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

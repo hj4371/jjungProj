@@ -1,0 +1,137 @@
+.content {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	position: relative;
+    /* padding: 100px 0px 0px 0px; */
+    box-sizing: border-box;
+	
+} 
+
+#bookname {
+	margin-left: 20%;
+	margin-top: 40px;
+	height: 50px;
+	/* position: absolute; */
+	font: 1em normal Verdana, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight : bold;
+	
+}
+
+#showlist {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	/* background: pink; */
+}
+
+#board {
+	padding-left:20px;
+}
+
+li {
+		list-style: none;
+		padding-bottom: 20px;
+		padding-left:10px;
+}
+
+.status {
+	color:red;
+	font-style:weight;
+}
+
+#lend,#return {
+	color: red;
+}
+
+#board,ul {
+	display: inline-block;
+}
+
+.img {
+	position:absolute;
+	right: 5%;
+}
+
+/* ---------------------------------------------------------------------------- */
+.comment {
+	width:800px;
+	margin:0 auto;
+	position:relative;
+	margin-top:250px;
+	
+}
+
+
+a {
+	color:black;
+}
+
+.content2 {
+	width:800px;
+}
+
+#btnPrev,.btnNext {
+	display: inline-block;
+}
+
+.numbering {
+	list-style: none;
+}
+
+.here {
+	display: inline-block;
+}
+
+.strong {
+	color: pink;
+}
+
+.pager-clear {
+	width: 300px;
+	margin:0 auto;
+}
+
+.pager-clear a {
+	display:inline-block;
+}
+
+#cur-page {
+	text-align: right;
+}
+
+#pager-wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+.article-list {
+	border-top: 2px solid #808080;
+	width: 100%;
+}
+
+.article-list tr {
+	height : 30px;
+	line-height: 30px;
+}
+
+.regdate {
+	width:50px;
+}
+
+.commentbody {
+	width:260px;
+}
+
+.writer {
+	width:100px;
+}
+.xbutton {
+	width:10px;
+	font-weight: bold;
+	color:#ff8080;
+}
+
+

@@ -1,0 +1,37 @@
+#main {
+	padding-top:40px;
+	width:900px;
+	margin:0 auto;
+	position: relative;
+}
+
+.content {
+	width:900px;
+	margin:0 auto;
+	text-align: center;
+	
+}
+
+#loginBox {
+	list-style: none;
+	padding-top:20px;
+}
+
+.deletebutton,.return {
+	color: #808080;
+	font-weight: bold;
+	
+}
+
+.deletebutton:hover,.return:hover {
+	color: #ff8080;
+
+}
+
+dl {
+	padding-top:10px;
+}
+
+#buttonLine {
+	padding-top:10px;
+}

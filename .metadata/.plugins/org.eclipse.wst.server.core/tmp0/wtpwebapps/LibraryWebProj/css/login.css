@@ -1,0 +1,26 @@
+#main {
+	padding-top:50px;
+	width:900px;
+	margin:0 auto;
+	position: relative;
+}
+
+.content {
+	width:900px;
+	margin:0 auto;
+	text-align: center;
+	
+}
+
+#loginBox {
+	list-style: none;
+	padding-top:20px;
+}
+
+/* #loginOption {
+	list-style: none;
+}  */
+
+a {
+	color: #808080;
+}
