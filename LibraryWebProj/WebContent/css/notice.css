@@ -1,0 +1,86 @@
+#main {
+	padding-top:20px;
+	width:900px;
+	margin:0 auto;
+	
+}
+
+.content2 {
+	width:900px;
+}
+
+
+#btnPrev,.btnNext {
+	display: inline-block;
+}
+
+.numbering {
+	list-style: none;
+}
+
+.here {
+	display: inline-block;
+}
+
+.strong {
+	color: pink;
+}
+
+.pager-clear {
+	width: 300px;
+	margin:0 auto;
+}
+
+.pager-clear a {
+	display:inline-block;
+}
+
+.article-comment {
+	text-align: right;
+}
+
+#cur-page {
+	text-align: right;
+}
+
+#pager-wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+.article-list {
+	border-top: 2px solid #808080;
+	width: 100%;
+}
+
+.article-list tr {
+	height : 30px;
+	line-height: 30px;
+}
+
+.seq {
+	width:40px;	
+}
+.title {
+	width:200px;
+}
+.writer {
+	width:40px;
+}
+.regdate {
+	width:80px;
+}
+.hit {
+	width:30px;
+}
+.titlego:hover {
+	color:#ff8080;
+}
+.btn-writebutton:hover {
+	color: #ff8080;
+}
+.btn-writebutton {
+	font-weight:bold;
+}
+
+
